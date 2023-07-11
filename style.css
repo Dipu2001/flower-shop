@@ -4,12 +4,12 @@
 }
 /* shared styles */
 .btn{
-    padding: 15px 35px;
+    padding: 15px 20px;
     border: none;
     border-radius: 5px;
     background: #E55473;
     color: #FFF;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 
 }
@@ -145,6 +145,41 @@
     gap: 15px;
 }
 .instagram-img img{
-    height: 280px;
-    width: 250px;
+    height: 275px;
+    width: 240px;
+}
+/* contact section */
+.contact-section{
+    margin: 70px 0px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/Rectangle\ 9.png");
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 74.5%;
+    margin: auto;
+}
+.contact-text{
+    text-align: center;
+
+}
+.contact-text h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.contact-text h4{
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 30px;
+}
+.contact-form input{
+    padding: 16px 350px 16px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 8px;
 }
