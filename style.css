@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
 /* shared styles */
 .btn{
@@ -50,6 +51,7 @@
 .featured .featured-title{
     font-size: 30px;
     margin-bottom: 20px;
+    font-weight: 800;
 }
 .featured p{
     font-size: 15px;
@@ -107,8 +109,10 @@
     text-align: center;
 }
 .hot-deal-text h1{
+    color: #272727;
     font-size: 30px;
     margin-bottom: 20px;
+    font-weight: 800;
 }
 .hot-deal-text h1 span{
     color:  #E55473;
@@ -130,8 +134,10 @@
     text-align: center;
 }
 .instagram-text h1{
+    color: #272727;
     font-size: 35px;
     margin-bottom: 20px;
+    font-weight: 800;
 }
 .instagram-text p{
     font-size: 15px;
@@ -169,17 +175,50 @@
 
 }
 .contact-text h1{
+    color: #272727;
     font-size: 30px;
     margin-bottom: 10px;
+    font-weight: 800;
     
 }
 .contact-text h4{
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 30px;
 }
+.contact-form{
+    display: flex;
+    align-items: center;
+}
 .contact-form input{
     padding: 16px 350px 16px 10px;
     border: none;
     border-radius: 5px;
-    margin-right: 8px;
+    margin-right: 10px;
+}
+/* footer section */
+.footer-section{
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+.footer{
+    text-align: center;
+}
+.footer h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.footer h1 span{
+    color: #E55473;
+}
+.footer p{
+    color: rgba(245, 245, 245, 0.733);
+    margin-bottom: 30px;
+}
+.footer h4{
+    color: rgba(109, 108, 108, 0.6) ;
 }
